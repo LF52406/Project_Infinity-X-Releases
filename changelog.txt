@@ -1,0 +1,58 @@
+This is Android 16 QPR2 with March 2026 security patches
+
+Project Infinity X v3.9 | UNOFFICIAL Release
+=======================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 03/04/2026
+Build Type: UNOFFICIAL
+
+Notes:
+=======================================
+- Switched to EROFS file system for superior performance
+- Leica Camera and Dolby Atmos included by default
+- CLEAN FLASH IS MANDATORY (due to FS change from ext4)
+
+Device changes:
+=======================================
+- Base: Updated Vendor Security Patch to 2026-02-01
+- Base: Update proprietary blobs and build fingerprint to OS3.0.5.0.VMNMIXM
+- Kernel/FS: Migrated to EROFS (Faster system read speeds)
+- Camera: Integrated Leica Camera (fully functional)
+- Audio: Added Dolby Atmos support
+- SEPolicy: Fixed performance HAL denials (improved CPU scaling)
+- SEPolicy: Fixed Scoped Storage permissions for vold
+- SEPolicy: General stability improvements and log cleanup
+
+Notable ROM changes (v3.9):
+=======================================
+- Add statusbar/lockscreen dynamic bar implementation
+- Add App drawer customizations and tunings
+- Add Toggle to launch notification apps in bubble or floating screen
+- Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels
+- Allow switching to default Android 16 brightness slider style
+- Add detailed Idle manager with advanced per-app control
+- Add 11 more Lockscreen custom clock styles
+- Fix custom clock styles disappearing on tablets or landscape rotation
+- Allow applying volume panel gradient customization to extended volume panel style
+- Allow showing Volume percentage on extended and expanded volume panel style 
+- Add toggle to kill Flash SMS messages
+- Simplify Always-on-Display charging checks
+- Remove QS boost hints that lead to battery drain / heat
+- Remove unnecessary scrolling boost hints that lead to battery drain / heat
+- Add back lockscreen weather wind and humidity info from v3.7
+- Remove ongoing media chip // Fixes systemui crash issues
+- Add optional Glow effect in notch ring
+- Add music playback progress in cutout ring
+- Fix default fonts display for regular and headline in QS Panel
+- Fix NPE in CallListener Gamespace
+- Fix scrolling in recovery image when touch is rotated
+- Allow changing size of custom clock styles
+- Fix PlanesLockGuard buffer lock leak in av
+- Fix preferences in launcher3 icon pack fragment turning purple upon clicking
+- Hide VmTerminal fragment if device doesn't support it
+- Improvements on memory usage and battery backup
+
+Credits:
+=======================================
+- @tejas101k and the Project Infinity X Team
+- ArianK16a, Keosh2, DqrKnz, GR, Adrianyyyy, xenogenхesys.
