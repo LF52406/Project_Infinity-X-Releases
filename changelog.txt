@@ -1,3 +1,23 @@
+This is Android 16 QPR2 with June 2026 security patches
+
+Project Infinity X v3.11 | UNOFFICIAL Release
+============================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 29/06/2026
+Build Type: UNOFFICIAL
+
+Device changes:
+============================================
+- Power: Migrated to the new Power HAL (libperfmgr) with custom-tuned frequencies and optimized powerhint.json
+- Kernel/Init: Tuned I2C bus autosuspend delay (5000ms) to eliminate touch microlags and optimize battery
+- Performance: Added custom Thermal Profiles for better temperature management
+- System: Implemented custom KeyHandler for proper Doze operation, DT2W, and screen-off gestures
+- System: Embedded GameBar overlay for performance and notification management during gaming
+- Kernel: Forced LZ4 compression algorithm for ZRAM to improve overall system responsiveness
+- Camera: Updated integrated Leica Camera (MiuiCamera)
+- Haptics: Improved overall haptic feedback and vibration response
+====================================================================================
+
 This is Android 16 QPR2 with March 2026 security patches
 
 Project Infinity X v3.9 | UNOFFICIAL Release
@@ -55,4 +75,4 @@ Notable ROM changes (v3.9):
 Credits:
 =======================================
 - @tejas101k and the Project Infinity X Team
-- ArianK16a, Keosh2, DqrKnz, GR, Adrianyyyy, xenogenхesys.
+- ArianK16a, Keosh2, DqrKnz, JoseoPablo, Adrianyyyy, xenogenхesys.
