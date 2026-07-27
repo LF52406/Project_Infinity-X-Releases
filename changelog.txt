@@ -1,3 +1,31 @@
+This is Android 16 QPR2 with July 2026 security patches
+
+Project Infinity X v3.12 | UNOFFICIAL Release
+============================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 26/07/2026
+Build Type: UNOFFICIAL
+
+Device changes:
+============================================
+- Build: Optimized Device Tree (DT). Reworked configuration parameters, dropped redundant flags, and updated dependencies for better system stability
+- Build: Dropped default Aperture camera from the build configuration
+- Storage: Implemented Smart Idle GC script for F2FS (background Garbage Collection & TRIM)
+- Storage: Enabled inline storage (inline_xattr, inline_data, inline_dentry) for fast cache reads
+- Storage: Optimized UFS command grouping (Flush Merge) to prevent I/O micro-freezes
+- Storage: Forced 128KB read-ahead value for optimal I/O stability
+- Power: Added CAMERA_LAUNCH & CAMERA_SHOT profiles for aggressive scheduler and LLCC/DDR scaling
+- Power: Added UDFPS acceleration profile (DISPLAY_UPDATE_IMMINENT) to eliminate unlock micro-lags
+- Power: Integrated ADPF (Android Dynamic Performance Framework) for 60/90/120 FPS gaming stability
+- Power: Fixed PowerHAL UclampMin node bindings for libperfmgr compatibility
+- Kernel/Init: Implemented dynamic IRQ affinity (KGSL to CPU 1, MSM_DRM to CPU 2)
+- System: Imported LineageOS APN configurations to fix missing access point names
+- System: Added missing system UI sounds
+- System: Updated XiaomiParts (Per-app Refresh Rate, Clear Speaker, enhanced Doze/AOD)
+- System: Updated Thermal Profiles
+- System: Added native support for fine-tuned Flashlight brightness control
+====================================================================================
+
 This is Android 16 QPR2 with June 2026 security patches
 
 Project Infinity X v3.11 | UNOFFICIAL Release
@@ -14,7 +42,7 @@ Device changes:
 - System: Implemented custom KeyHandler for proper Doze operation, DT2W, and screen-off gestures
 - System: Embedded GameBar overlay for performance and notification management during gaming
 - Kernel: Forced LZ4 compression algorithm for ZRAM to improve overall system responsiveness
-- Camera: Updated integrated Leica Camera (MiuiCamera)
+- Camera: Updated integrated MiuiCamera
 - Haptics: Improved overall haptic feedback and vibration response
 ====================================================================================
 
