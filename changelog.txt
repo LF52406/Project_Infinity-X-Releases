@@ -103,4 +103,4 @@ Notable ROM changes (v3.9):
 Credits:
 =======================================
 - @tejas101k and the Project Infinity X Team
-- ArianK16a, Keosh2, DqrKnz, JoseoPablo, Adrianyyyy, xenogenхesys.
+- ArianK16a, Keosh2, DqrKnz, GR, Adrianyyyy, xenogenхesys, Joey.
