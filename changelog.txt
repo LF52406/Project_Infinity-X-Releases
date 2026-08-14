@@ -1,3 +1,15 @@
+This is Android 16 QPR2 with August 2026 security patches
+
+Project Infinity X v3.12 | UNOFFICIAL Release
+============================================
+Device: Poco F5 Pro / Redmi K60 (mondrian)
+Build Date: 13/09/2026
+Build Type: UNOFFICIAL
+
+Device changes:
+============================================
+* switched to 64bit-only
+
 This is Android 16 QPR2 with July 2026 security patches
 
 Project Infinity X v3.12 | UNOFFICIAL Release
