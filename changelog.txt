@@ -8,7 +8,7 @@ Build Type: UNOFFICIAL
 
 Device changes:
 ============================================
-* switched to 64bit-only
+- switched to 64bit-only
 
 This is Android 16 QPR2 with July 2026 security patches
 
